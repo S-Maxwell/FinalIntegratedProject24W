@@ -169,7 +169,21 @@
     padding-top: 30px;
     padding-bottom: 30px;
  }
- 
+
+    /*---Reservations--- */
+
+  #packages-con {
+    padding: 50px 0; 
+  }
+  
+  .packages-items {
+    margin-top: 20px;
+  }
+  
+  #about-con {
+    padding: 50px 0;
+  }
+  
  /* 5. ---Why Choose Us--- */
  
   #why-choose-us-nav {
