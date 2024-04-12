@@ -294,7 +294,7 @@ Couples Resort Responsive Build
  #about-us-text-column2 {
     font-style: italic;
  }
- 
+
  #faq-con {
     background-color: #f4f4f4;
     padding-top: 35px;
@@ -345,7 +345,8 @@ Couples Resort Responsive Build
  /* 7. ---Contact--- */
  
  #contact-hero-con {
-    background: url(../images/contact-hero.jpg);
+    background: url(../images/contact-hero.jpg) no-repeat;
+    background-size:cover;
     height: 195px;
  }
  
@@ -379,7 +380,7 @@ Couples Resort Responsive Build
     flex-direction: column;
  }
  
- #contact-hero-form input, textarea {
+ #contact-hero-form input, #contact-hero-form textarea {
     padding: 22px;
     border: 2px solid #d6d6d6;
     background-color: #f7f7f7;
@@ -392,7 +393,6 @@ Couples Resort Responsive Build
  #contact-hero-form textarea {
     height: 250px;
  }
- 
  
  
  #contact-hero-form input[type="submit"] {
